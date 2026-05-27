@@ -8,14 +8,17 @@ Natural language processing system for generating concise summaries from large t
 
 This project focuses on automatic text summarization using natural language processing workflows.
 
-The system processes large textual documents and generates concise summaries while preserving the key contextual information from the original content.
+The system processes large textual documents and generates concise summaries while preserving key contextual information from the original content.
+
+The project implements multiple NLP preprocessing and feature engineering techniques to improve summarization quality and text understanding.
 
 ---
 
 ## Features
 
 * Text preprocessing and cleaning
-* NLP-based summarization workflows
+* Tokenization and lemmatization
+* TF-IDF based text representation
 * Sentence extraction and ranking
 * Context-aware summary generation
 * Large document processing
@@ -25,7 +28,8 @@ The system processes large textual documents and generates concise summaries whi
 ## Technologies Used
 
 * Python
-* NLP Techniques
+* spaCy
+* TF-IDF
 * scikit-learn
 * Pandas
 * NumPy
@@ -33,13 +37,25 @@ The system processes large textual documents and generates concise summaries whi
 
 ---
 
-## Core Concepts
+## NLP Concepts Used
 
 * Natural Language Processing
+* Tokenization
+* Lemmatization
+* TF-IDF Vectorization
 * Text Summarization
 * Information Extraction
 * Text Preprocessing
-* Machine Learning Pipelines
+
+---
+
+## Workflow
+
+1. Text preprocessing and cleaning
+2. Tokenization using spaCy
+3. Lemmatization for normalized word representations
+4. TF-IDF vectorization for importance scoring
+5. Sentence ranking and summary generation
 
 ---
 
